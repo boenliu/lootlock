@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  font-size: 30px;
+}
+
+nav{
+  margin: 0;
+  padding: 0;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
+
+nav li{
+  float: right;
+}
+
+nav li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+form{
+  text-align: left;
+  padding: 100px;
+  line-height: 1.8;
+}
+
+footer{
+  background-color: grey;
+}
+
+footer ul{
+  display: inline-grid;
+  list-style-type: none;
+  margin: 40px;
+  margin-top: 0px;
+  padding: 50px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+footer h2{
+  margin: 0;
+  padding: 50px;
+  padding-bottom: 10px;
+}
+
+.photobackground{
+  background-image: url("../images/sample.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0px;
+  padding: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: white;
+}
+
+.photobackground p{
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 1.8;
+}
+
+.photobackground .unlockButton{
+  text-align: center;
+}
+
+.whitebackground{
+  background-color: white;
+  text-align: center;
+  padding: 50px;
+  color: black;
+}
+
+.softgreybackground{
+  background-color: rgba(10, 10, 10, 0.5);
+  text-align: center;
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.settingsPhotoBackground{
+  text-align: center;
+}
