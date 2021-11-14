@@ -1,6 +1,7 @@
 body{
   margin: 0;
   font-size: 30px;
+  font-family: 'Roboto';
 }
 
 nav{
@@ -13,20 +14,27 @@ nav ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #546e7a;
+  background-color: #29434e;
 }
 
 nav li{
   float: right;
 }
 
+/*navbar hover styling*/
+a.nav:hover, a.nav:active {
+  background: #4bcbcc; color: #29434e;
+}
+
 nav li a{
   display: block;
-  color: black;
+  color: #4bcbcc;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
+
+
 
 form{
   text-align: left;
@@ -35,7 +43,7 @@ form{
 }
 
 footer{
-  background-color: grey;
+  background-color: #546e7a;
 }
 
 footer ul{
@@ -43,14 +51,14 @@ footer ul{
   list-style-type: none;
   margin: 40px;
   margin-top: 0px;
-  padding: 50px;
+  padding: 40px;
   padding-top: 0px;
   padding-bottom: 10px;
 }
 
 footer h2{
   margin: 0;
-  padding: 50px;
+  padding: 30px;
   padding-bottom: 10px;
 }
 
@@ -77,10 +85,10 @@ footer h2{
 }
 
 .whitebackground{
-  background-color: white;
+  background-color: #29434e;
   text-align: center;
   padding: 50px;
-  color: black;
+  color: #4bcbcc;
 }
 
 .softgreybackground{
@@ -96,3 +104,4 @@ footer h2{
 .settingsPhotoBackground{
   text-align: center;
 }
+
