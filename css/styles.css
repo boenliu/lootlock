@@ -76,6 +76,12 @@ footer h2{
   text-align: center;
 }
 
+/*
+it might be named whitebackground but we should change this to a primary
+color that we decided in our style guide
+
+just change Color:
+*/
 .whitebackground{
   background-color: white;
   text-align: center;
@@ -83,6 +89,12 @@ footer h2{
   color: black;
 }
 
+
+/*
+Same here, instead of grey, we should change it to a secondary color
+
+Just change Color:
+*/
 .softgreybackground{
   background-color: rgba(10, 10, 10, 0.5);
   text-align: center;
@@ -133,5 +145,6 @@ footer h2{
   .photobackground h1{
     text-align: center;
   }
+
 
 }
