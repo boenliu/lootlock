@@ -1,0 +1,165 @@
+body{
+  margin: 0;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+
+nav{
+  margin: 0;
+  padding: 0;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #29434e;
+}
+
+nav li{
+  float: right;
+}
+
+/*navbar hover styling*/
+a.nav:hover, a.nav:active {
+  background: #4bcbcc; color: #29434e;
+}
+
+nav li a{
+  display: block;
+  color: #4bcbcc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+form{
+  text-align: left;
+  padding: 100px;
+  line-height: 1.8;
+}
+
+footer{
+  background-color: #546e7a;
+}
+
+footer ul{
+  display: inline-grid;
+  list-style-type: none;
+  margin: 40px;
+  margin-top: 0px;
+  padding: 40px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+footer h2{
+  margin: 0;
+  padding: 30px;
+  padding-bottom: 10px;
+}
+
+.photobackground{
+  background-image: url("/images/sample.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0px;
+  padding: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: white;
+}
+
+.photobackground p{
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 1.8;
+}
+
+.photobackground .unlockButton{
+  text-align: center;
+}
+
+/*background is not white*/
+.whitebackground{
+  background-color: #29434e;
+  text-align: center;
+  padding: 50px;
+  color: #4bcbcc;
+}
+
+.softgreybackground{
+  background-color: rgba(10, 10, 10, 0.5);
+  text-align: center;
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.settingsPhotoBackground{
+  text-align: center;
+}
+
+/*styling for "about us" email text area*/
+textarea{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  border:solid 5px #546e7a;
+
+}
+/*"enter email here" text area on "about us page"*/
+.email{
+  
+  border:solid 3px #546e7a;
+
+}
+
+/*submit button for email on "about us" page*/
+.submit{
+  display: block;
+  color: #4bcbcc;
+  background: #546e7a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: large;
+}
+
+/*style settings for all buttons*/
+button{
+  font-weight: bold;
+  font-size: large;
+  color: #4bcbcc;
+  background: #546e7a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/*underline any text with the underline class*/
+.underline{
+
+  text-decoration: underline;
+
+}
+
+/*style settings for all drop down boxes*/
+.dropDown{
+
+  font-weight: bold;
+  color: #4bcbcc;
+  background: #546e7a;
+  text-align: center;
+  padding: 7px 8px;
+  text-decoration: none;
+
+}
