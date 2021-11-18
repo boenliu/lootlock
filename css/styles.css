@@ -149,9 +149,7 @@ button{
 
 /*underline any text with the underline class*/
 .underline{
-
   text-decoration: underline;
-
 }
 
 /*style settings for all drop down boxes*/
@@ -166,12 +164,14 @@ button{
 
 }
 
+/*mobile styling (for screens less than 501 pixels)*/
 @media screen and (max-width: 500px){
   body{
     margin: 0;
     font-size: 17px;
   }
 
+  /* moved nav bar to be closer to fingers for mobile */
   nav{
     position: fixed;
     bottom: 0;
